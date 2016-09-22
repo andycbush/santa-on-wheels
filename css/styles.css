@@ -28,6 +28,7 @@ CSS reset
     -webkit-padding-after: 0px;
     -webkit-padding-start: 0px;
     -webkit-padding-end: 0px;
+
 }
 
 
@@ -37,6 +38,13 @@ General styles (General Module, wrapping around the modules bellow)
 */
 
 body {}
+body {
+    background: rgba(0,0,0,0) url("../img/background/xmas9.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 
 
 /* -------------------------------------
@@ -50,13 +58,44 @@ Content styles (Main Module)
 (all the styles inside the < sections > or < aside > tags)
 */
 
+.busCard {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+}
 
+.aboutpic {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.intro {
+    margin-top: 2.5em;
+    padding: .5em;
+    padding-top: ;
+    background: url("../img/transparent.jpg");
+    color: linen;
+    border-radius: 5%;
+}
+
+.pics {
+    margin-top: 5em;
+}
+
+.myform {
+    margin-top: 3em;
+}
 /* -------------------------------------
 Footer styles (Main Module)
 (all the styles inside the < footer > tag)
 */
-
-
+.myfooter {
+margin-top: 1em;
+    }
+.myspan {
+    color: black;
+    font-size: 1.6em;
+    font-weight: 700;
+}
 /* -------------------------------------
 place all the desktop styles above this line
 
